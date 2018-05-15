@@ -5,7 +5,7 @@ Testing Dataset
 -----
   * [Click here](http://www.limfinity.com/ir/)
 
-# Go Into Hadoop
+## Go Into Hadoop
 ``` shell
 cd ~/src 
 git clone https://github.com/carsonluuu/Google-Pagerank/Final
@@ -14,7 +14,7 @@ git clone https://github.com/carsonluuu/Google-Pagerank/Final
 cd src/main/java/
 ```
 
-# Setting Up Files
+## Setting Up Files
 ``` shell
 hdfs dfs -rm -r /transition 
 hdfs dfs -mkdir /transition 
@@ -36,7 +36,7 @@ Output is under: /pagerankN（N=iteration times）
 ```hdfs dfs -cat /pagerank1/* #check result```
 <img align="center" src="img/1.png" alt="Map"/>
 
-# Generating CVS
+## Generating CVS
 ```
 hdfs dfs -get <src> <localDest>
 #Examples：
@@ -49,6 +49,6 @@ hdfs dfs -get /pagerank30/part-r-00000 pr30.txt
 ```
 <img align="center" src="img/2.png" alt="Map"/>
 
-# Res
+## Results
 <img align="center" src="img/4.png" alt="Map"/>
 <img align="center" src="img/5.png" alt="Map"/>
