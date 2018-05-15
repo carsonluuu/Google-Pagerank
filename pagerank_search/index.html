@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagerank</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/d3.min.js"></script>
+</head>
+<body>
+<h1><strong class="white">Pagerank Visualization</strong></h1>
+<p><img width="16" src="http://www.jiuzhang.com/static/img/logo-square.png" alt="">Power by 九章算法</p>
+<div class="content" id="content">
+    <form>
+        <input type="text" class="searchbar" name="query" id="query" value="">
+        <button class="searchbtn" type="submit">Search</button>
+    </form>
+</div>
+
+<svg width="1024" height="640"></svg>
+
+<ol>
+    <li>黑色代表选中点</li>
+    <li>线段粗细代表Pagerank值大小</li>
+    <li>点击小球进入下一个节点</li>
+</ol>
+<script src="js/main.js"></script>
+</body>
+</html>

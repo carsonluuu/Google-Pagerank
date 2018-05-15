@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    cursor: pointer;
+}
+
+.searchbar {
+    border-radius: 5px;
+    margin: 0 10px;
+    vertical-align: middle;
+    width: 150px;
+    height: 30px;
+}
+
+.searchbtn {
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    width: 80px;
+    font-size: smaller;
+    /*font-weight: 700;*/
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.main-node {
+}
