@@ -3,7 +3,7 @@ Google Pagerank Application Based On Hadoop
 
 Testing Dataset
 -----
-  * [Click here](http://www.limfinity.com/ir/)
+  * [Click Here](http://www.limfinity.com/ir/)
 
 ## Go Into Hadoop
 ``` shell
