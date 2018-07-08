@@ -52,4 +52,3 @@ hdfs dfs -get /pagerank30/part-r-00000 pr30.txt
 ## Results
 <img align="center" src="img/4.png" alt="Map"/>
 <img align="center" src="img/5.png" alt="Map"/>
-
