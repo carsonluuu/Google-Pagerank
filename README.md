@@ -1,5 +1,5 @@
 # Google-Pagerank
-Google Pagerank Application Based On Hadoop 
+Google Pagerank Application Based On Hadoop Offline 
 
 Testing Dataset
 -----
